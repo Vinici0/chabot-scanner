@@ -10,6 +10,12 @@ To use android's BiometricPrompt api you must add the following permission to yo
 <uses-permission android:name="android.permission.USE_BIOMETRIC">
 ```
 
+This value is just the reason for using FaceID. You can add something like the following example to App/info.plist:
+```
+<key>NSFaceIDUsageDescription</key>
+<string>Para un inicio de sesión más fácil y rápido.</string>
+```
+
 ## Biometrico | biometrico.tsx
 ```
 import React, {useEffect, useState} from "react";
