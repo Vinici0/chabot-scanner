@@ -4,6 +4,11 @@
 ```
 npm i capacitor-native-biometric
 ```
+To use android's BiometricPrompt api you must add the following permission to your AndroidManifest.xml:
+
+```
+<uses-permission android:name="android.permission.USE_BIOMETRIC">
+```
 
 ## Biometrico | biometrico.tsx
 ```
