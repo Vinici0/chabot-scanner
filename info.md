@@ -3,6 +3,7 @@
 ## Install
 ```
 npm i capacitor-native-biometric
+npm i bcrypt (opcional)
 ```
 To use android's BiometricPrompt api you must add the following permission to your AndroidManifest.xml:
 
