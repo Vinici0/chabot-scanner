@@ -167,7 +167,7 @@ export const useBiometrico = ({switcher, renderLogin, setErrorMessage}) => {
             <div className="line"></div>
           </div>
 
-          {(!isBiometricoAvailability && isAutenticado) && (
+          {(isBiometricoAvailability && isAutenticado) && (
               <IonButton
                   onClick={performBiometricVerification}
                   className="flex flex-col my-1 login"
