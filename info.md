@@ -67,12 +67,6 @@ export const useBiometrico = ({switcher, renderLogin, setErrorMessage}) => {
         }
     };
 
-    const IsUserAndPassword = async () => {
-        const {username, password} = await getUserAndPassword();
-        return !(!username || !password);
-    }
-
-
     const checkUserAndPassword = async () => {
 
         const {username, password} = await getUserAndPassword();
@@ -138,6 +132,11 @@ export const useBiometrico = ({switcher, renderLogin, setErrorMessage}) => {
             );
         }
 
+    }
+
+    const IsUserAndPassword = async () => {
+        const {username, password} = await getUserAndPassword();
+        return !(!username || !password);
     }
 
     const getUserAndPassword = async () => {
