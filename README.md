@@ -126,7 +126,4 @@
       temp.existeContrato = 'false'
     }
   } 
-
-  return obtenerContratos(args.value)
-
 ```
