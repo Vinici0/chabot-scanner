@@ -123,7 +123,7 @@
       }
       temp.existeContrato = 'true'
     } else {
-      temp.existeContrato = 'false'
+      temp.existeContrato = ' false '
     }
   } 
 ```
