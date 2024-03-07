@@ -46,7 +46,6 @@
 ## Parte dos 
 ```
   const axios = require('axios')
-
   const obtenerContratos = async value => {
     if (!session.agenciascontratos || (session.agenciascontratos && session.agenciascontratos.length == 0)) {
       const { data } = await axios({
